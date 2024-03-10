@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --branco: #fff;
+    --roxodark2: #29073B;
+    --roxodark: #5a0a86;
+    --roxolight: #935CCB;
+    --roxomedium: rgb(73, 17, 99);
+}
+
+.logo{
+    width: 60px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(248, 244, 255);
+    box-shadow: 1px 1px 6px rgb(214, 193, 253);
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+.navigation{ /*MENU*/
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    top: 0%;
+    background-color: #ece1f1;
+    width: 14vw;
+    height: 100%;
+    padding: 16px;
+    animation-duration: 0.4s;
+    margin-left: -50vw; /*esconde o MENU*/
+}
+.navigation a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.secoes{
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    padding-top: 24px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    color: var(--roxodark);
+    margin-left: 25px;
+}
+
+.pags{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.pags a{
+    color: var(--roxomedium);
+    font-family: monospace;
+    font-size: 11pt;
+    font-family: 'Bakbak One', sans-serif;
+}
+
+.btn_icon-header{
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: var(--roxodark);
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+@keyframes showSidebar {
+    from {margin-left: -50vw;}
+    top{margin-left: -1vw;}
+
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 16pt;
+    color: var(--roxodark);
+    span{
+        color: #a545ff;
+    }
+}
+
+.subtitle{
+    font-family: 'B612 Mono', monospace;
+    font-size: 10pt;
+    color: var(--roxomedium);
+  }
+  

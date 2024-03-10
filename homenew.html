@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIRLS IN STEAM - Início</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>    
+    <div class="header" id="header">
+        <button onclick="ClickSidebar()" class="btn_icon_header"> <!--BOTÃO LIST-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+        </button>
+
+        <div class="titles">
+            <h1 class="title"><span>G</span>IRLS <span>IN</span> STEA<span>M</span></h1>
+            <h2 class="subtitle">“Acredite no que faz e lute pelo que acredita”</h2>
+        </div>
+
+        <div class="logo_header"> <!--LOGO-->
+            <img class="logo" src="imagens/logo.png" alt=""> 
+        </div>
+        <div class="navigation" id="navigationH"> <!--NAVEGAÇÃO-->
+            <button onclick="ClickSidebar()" class=" btn_icon_header">  <!--BOTÃO FECHAR-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </button> 
+
+            <div class="secoes"> <!--TÓPICOS DO MENU ICONS + TITLE-->
+                <div class="icons"> 
+                    <svg  class = "ic" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.5.5 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.5.5 0 0 0-.196 0zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1z"/>
+                      </svg> <!--ROADMAP-->
+                      <svg class = "ic" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-heart-fill" viewBox="0 0 16 16">
+                        <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+                      </svg> <!--CALENDÁRIO-->
+                      <svg class = "ic" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-magic" viewBox="0 0 16 16">
+                        <path d="M9.5 2.672a.5.5 0 1 0 1 0V.843a.5.5 0 0 0-1 0zm4.5.035A.5.5 0 0 0 13.293 2L12 3.293a.5.5 0 1 0 .707.707zM7.293 4A.5.5 0 1 0 8 3.293L6.707 2A.5.5 0 0 0 6 2.707zm-.621 2.5a.5.5 0 1 0 0-1H4.843a.5.5 0 1 0 0 1zm8.485 0a.5.5 0 1 0 0-1h-1.829a.5.5 0 0 0 0 1zM13.293 10A.5.5 0 1 0 14 9.293L12.707 8a.5.5 0 1 0-.707.707zM9.5 11.157a.5.5 0 0 0 1 0V9.328a.5.5 0 0 0-1 0zm1.854-5.097a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L8.646 5.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0l1.293-1.293Zm-3 3a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L.646 13.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0z"/>
+                      </svg> <!--DICAS(VARINHA DE CONDÃO)-->
+                      <svg class = "ic" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                      </svg> <!--SOBRE NÓS-->
+                </div>
+                <div class="pags"> <!--páginas-->
+                    <a href="PAGES/roadmaps.html">ROADMAPS</a>
+                    <a href="PAGES/calendar.html">CALENDER</a>
+                    <a href="PAGES/aham.html">AHAM</a>
+                    <a href="PAGES/aboutwe.html">SOBRE NÓS</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</header>
+<body class="content" id="content">
+    <div tabindex="0" onclick="CloseSidebar()" x> <!--Div pra o menu fechar clicando em qualquer lugar-->
+        <section class="slider"> <!--SLIDER-->
+            <div class="slider-content">
+
+                <input type="radio" name="btn_radio" id="radio1">
+                <input type="radio" name="btn_radio" id="radio2">
+                <input type="radio" name="btn_radio" id="radio3">
+
+                <div class="slide_box">
+                    <img src="imagens/1.svg" alt="">
+                    <img src="imagens/2.svg" alt="">
+                    <img src="imagens/3.svg" alt="">
+                    <img src="imagens/4.svg" alt="">
+                    <img src="imagens/5.svg" alt="">
+                </div>
+
+            </div>
+        </section>
+    </div>
+</body>
+<script src="home.js"></script>
+</html>
